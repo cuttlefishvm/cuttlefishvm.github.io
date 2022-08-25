@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            @font-face {
+            font-family: 'FredokaOne-Regular';
+            src:  url('./assets/fonts/FredokaOne-Regular.woff') format('woff'),
+                    url('./assets/fonts/FredokaOne-Regular.tff') format('ttf');
+            }
+            body {
+                background-color: bisque;
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+            }
+            section {
+            
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-items:center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+            .hero {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .title {
+                font-family: 'FredokaOne-Regular';
+                text-align: center;
+                font-size: 35px;
+            }
+            .logo-subtitle {
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="hero">
+                <img src="./assets/images/logo.png" />
+                <h1 class="title">
+                    CuttlefishVM
+                </h1>
+                <div class="logo-subtitle">
+                    Hypervisor for wasm, defined by wit-bindgen
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
